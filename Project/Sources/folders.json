@@ -8,7 +8,8 @@
 	},
 	"Constants": {
 		"classes": [
-			"LottieConstants"
+			"LottieConstants",
+			"LottieSchema"
 		]
 	},
 	"Layers": {
@@ -65,12 +66,14 @@
 	},
 	"tests": {
 		"methods": [
+			"_logTest",
 			"run_tests",
 			"test_Lottie_Animation",
 			"test_Lottie_Ellipse",
 			"test_Lottie_Load",
 			"test_Lottie_Path",
-			"test_Lottie_RoundTrip"
+			"test_Lottie_RoundTrip",
+			"test_Lottie_Schema"
 		]
 	},
 	"trash": {}

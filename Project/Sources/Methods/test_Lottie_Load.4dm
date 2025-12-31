@@ -23,16 +23,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 2: Load from 4D.File object
 $testName:="Load from 4D.File object"
@@ -49,16 +40,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 3: Load from JSON text
 $testName:="Load from JSON text"
@@ -75,16 +57,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 4: Load from JSON object
 $testName:="Load from JSON object"
@@ -101,16 +74,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 5: Invalid input should throw
 $testName:="Invalid JSON throws error"
@@ -125,13 +89,4 @@ Catch
 	$result:=True:C214
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)

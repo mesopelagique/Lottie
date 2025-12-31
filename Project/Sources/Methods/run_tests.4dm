@@ -13,6 +13,7 @@ test_Lottie_Ellipse($stats)
 test_Lottie_Path($stats)
 test_Lottie_Animation($stats)
 test_Lottie_RoundTrip($stats)
+test_Lottie_Schema($stats)
 
 // Print summary
 var $summary : Text

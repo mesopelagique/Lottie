@@ -35,16 +35,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool:C1537($stats.assert))
-		ASSERT:C1129(False:C215; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 2: Animated rectangle round-trip
 $testName:="Animated rectangle round-trip"
@@ -71,16 +62,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool:C1537($stats.assert))
-		ASSERT:C1129(False:C215; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 3: Save and reload
 $testName:="Save to temp file and reload"
@@ -110,16 +92,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool:C1537($stats.assert))
-		ASSERT:C1129(False:C215; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 4: Create animation from scratch
 $testName:="Create animation from scratch"
@@ -151,13 +124,4 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool:C1537($stats.assert))
-		ASSERT:C1129(False:C215; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)

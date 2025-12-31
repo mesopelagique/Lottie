@@ -40,16 +40,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 2: Ellipse from loaded file
 $testName:="Ellipse shape from loaded file"
@@ -75,16 +66,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 3: Create ellipse programmatically
 $testName:="Create ellipse programmatically"
@@ -109,13 +91,4 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)

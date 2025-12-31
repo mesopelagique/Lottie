@@ -22,16 +22,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 2: Animated transform properties
 $testName:="Animated transform properties"
@@ -52,16 +43,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 3: Markers
 $testName:="Parse markers"
@@ -83,16 +65,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 4: Duration calculation
 $testName:="Duration calculation"
@@ -112,16 +85,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 5: Query layers by name
 $testName:="Query layers by name"
@@ -140,13 +104,4 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)

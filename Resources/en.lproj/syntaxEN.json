@@ -223,6 +223,13 @@
 				"Summary": ""
 			}
 		},
+		"LottieSchema": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
 		"LottieMask": {
 			"new()": {
 				"Syntax": "**.new**( *parent* : Object )",
@@ -2033,6 +2040,7 @@
 		},
 		"_inheritedFrom_": "LottieShape"
 	},
+	"LottieSchema": {},
 	"LottieMask": {
 		"toJSON()": {
 			"Syntax": "**.toJSON**() : Object",

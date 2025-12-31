@@ -42,16 +42,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 2: Path from loaded file
 $testName:="Path shape from loaded file"
@@ -77,16 +68,7 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
 
 // Test 3: Path with stroke from file
 $testName:="Path with stroke properties"
@@ -109,13 +91,4 @@ Catch
 	$result:=False:C215
 End try
 
-If ($result)
-	$stats.passed:=$stats.passed+1
-	LOG EVENT:C667($stats.output; "✅ "+$testName+"\n"; Information message:K38:1)
-Else 
-	$stats.failed:=$stats.failed+1
-	LOG EVENT:C667($stats.output; "❌ "+$testName+"\n"; Information message:K38:1)
-	If (Bool($stats.assert))
-		ASSERT(False; "❌ "+$testName)
-	End if 
-End if 
+_logTest($stats; $testName; $result)
