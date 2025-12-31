@@ -17,13 +17,13 @@ This library provides a complete object model for working with Lottie JSON anima
 
 ```4d
 // Load from file
-var $lottie : cs.Lottie:=cs.Lottie.new(File("/path/to/animation.json"))
+var $lottie : cs.lottie.Lottie:=cs.lottie.Lottie.new(File("/path/to/animation.json"))
 
 // Or from JSON text
-var $lottie2 : cs.Lottie:=cs.Lottie.new("{\"v\":\"5.7.4\",\"fr\":30,...}")
+var $lottie2 : cs.lottie.Lottie:=cs.lottie.Lottie.new("{\"v\":\"5.7.4\",\"fr\":30,...}")
 
 // Or from object
-var $lottie3 : cs.Lottie:=cs.Lottie.new({v: "5.7.4"; fr: 30; ip: 0; op: 60; w: 512; h: 512; layers: []})
+var $lottie3 : cs.lottie.Lottie:=cs.lottie.Lottie.new({v: "5.7.4"; fr: 30; ip: 0; op: 60; w: 512; h: 512; layers: []})
 
 // Access properties
 $lottie.name:="My Animation"
@@ -36,7 +36,7 @@ var $duration : Real:=$lottie.duration  // in seconds
 var $frames : Real:=$lottie.totalFrames
 
 // Query layers
-var $layer : cs.LottieLayer:=$lottie.getLayerByName("Background")
+var $layer : cs.lottie.LottieLayer:=$lottie.getLayerByName("Background")
 var $shapeLayers : Collection:=$lottie.shapeLayers
 var $textLayers : Collection:=$lottie.textLayers
 
@@ -53,6 +53,7 @@ var $json : Object:=$lottie.toJSON()
 ## Documentation
 
 - [Lottie Class](Documentation/Classes/Lottie.md) - Main animation class
+- [LottieSchema Class](Documentation/Classes/LottieSchema.md) - JSON Schema validation
 
 
 ## Lottie Resources

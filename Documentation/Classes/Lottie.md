@@ -5,7 +5,7 @@ The main class for working with Lottie animations. Provides methods to load, man
 ## Constructor
 
 ```4d
-cs.Lottie.new($data : Variant) : cs.Lottie
+cs.lottie.Lottie.new($data : Variant) : cs.lottie.Lottie
 ```
 
 Creates a new Lottie instance from various input types.
@@ -20,22 +20,22 @@ Creates a new Lottie instance from various input types.
 
 ```4d
 // From file path
-var $lottie : cs.Lottie:=cs.Lottie.new("/path/to/animation.json")
+var $lottie : cs.lottie.Lottie:=cs.lottie.Lottie.new("/path/to/animation.json")
 
 // From 4D.File
 var $file : 4D.File:=Folder(fk resources folder).file("animations/intro.json")
-var $lottie : cs.Lottie:=cs.Lottie.new($file)
+var $lottie : cs.lottie.Lottie:=cs.lottie.Lottie.new($file)
 
 // From JSON string
 var $json : Text:=File("/path/to/animation.json").getText()
-var $lottie : cs.Lottie:=cs.Lottie.new($json)
+var $lottie : cs.lottie.Lottie:=cs.lottie.Lottie.new($json)
 
 // From JSON object
 var $obj : Object:={v: "5.7.4"; fr: 30; ip: 0; op: 60; w: 512; h: 512; layers: []}
-var $lottie : cs.Lottie:=cs.Lottie.new($obj)
+var $lottie : cs.lottie.Lottie:=cs.lottie.Lottie.new($obj)
 
 // Empty animation
-var $lottie : cs.Lottie:=cs.Lottie.new(Null)
+var $lottie : cs.lottie.Lottie:=cs.lottie.Lottie.new(Null)
 ```
 
 ---
@@ -68,8 +68,8 @@ var $lottie : cs.Lottie:=cs.Lottie.new(Null)
 
 | Property | Type | Description |
 |----------|------|-------------|
-| `fonts` | `cs.LottieFontList` | Font list for text layers |
-| `meta` | `cs.LottieMeta` | Animation metadata |
+| `fonts` | `cs.lottie.LottieFontList` | Font list for text layers |
+| `meta` | `cs.lottie.LottieMeta` | Animation metadata |
 
 ---
 
@@ -173,13 +173,13 @@ Returns the estimated file size (JSON string length in characters).
 ### getLayerByName
 
 ```4d
-$lottie.getLayerByName($name : Text) : cs.LottieLayer
+$lottie.getLayerByName($name : Text) : cs.lottie.LottieLayer
 ```
 
 Find a layer by its name.
 
 ```4d
-var $layer : cs.LottieLayer:=$lottie.getLayerByName("Background")
+var $layer : cs.lottie.LottieLayer:=$lottie.getLayerByName("Background")
 If ($layer#Null)
     $layer.isHidden:=True
 End if
@@ -188,19 +188,19 @@ End if
 ### getLayerByIndex
 
 ```4d
-$lottie.getLayerByIndex($index : Integer) : cs.LottieLayer
+$lottie.getLayerByIndex($index : Integer) : cs.lottie.LottieLayer
 ```
 
 Find a layer by its index number.
 
 ```4d
-var $layer : cs.LottieLayer:=$lottie.getLayerByIndex(1)
+var $layer : cs.lottie.LottieLayer:=$lottie.getLayerByIndex(1)
 ```
 
 ### getLayerById
 
 ```4d
-$lottie.getLayerById($id : Text) : cs.LottieLayer
+$lottie.getLayerById($id : Text) : cs.lottie.LottieLayer
 ```
 
 Find a layer by its ID.
@@ -214,7 +214,7 @@ $lottie.getLayersByType($type : Integer) : Collection
 Get all layers of a specific type.
 
 ```4d
-var $const : cs.LottieConstants:=cs.LottieConstants.me
+var $const : cs.lottie.LottieConstants:=cs.lottie.LottieConstants.me
 var $shapes : Collection:=$lottie.getLayersByType($const.LayerType.SHAPE)
 var $images : Collection:=$lottie.getLayersByType($const.LayerType.IMAGE)
 ```
@@ -222,25 +222,25 @@ var $images : Collection:=$lottie.getLayersByType($const.LayerType.IMAGE)
 ### getAssetById
 
 ```4d
-$lottie.getAssetById($id : Text) : cs.LottieAsset
+$lottie.getAssetById($id : Text) : cs.lottie.LottieAsset
 ```
 
 Find an asset by its ID.
 
 ```4d
-var $asset : cs.LottieAsset:=$lottie.getAssetById("image_0")
+var $asset : cs.lottie.LottieAsset:=$lottie.getAssetById("image_0")
 ```
 
 ### getMarkerByName
 
 ```4d
-$lottie.getMarkerByName($name : Text) : cs.LottieMarker
+$lottie.getMarkerByName($name : Text) : cs.lottie.LottieMarker
 ```
 
 Find a marker by its name.
 
 ```4d
-var $marker : cs.LottieMarker:=$lottie.getMarkerByName("loop_start")
+var $marker : cs.lottie.LottieMarker:=$lottie.getMarkerByName("loop_start")
 If ($marker#Null)
     var $frame : Real:=$marker.time
 End if
@@ -320,7 +320,7 @@ Use `cs.LottieConstants.me.ShapeType` to access shape type constants:
 
 ```4d
 // Load animation
-var $lottie : cs.Lottie:=cs.Lottie.new(File(fk resources folder).file("animation.json"))
+var $lottie : cs.lottie.Lottie:=cs.lottie.Lottie.new(File(fk resources folder).file("animation.json"))
 
 // Modify properties
 $lottie.name:="Modified Animation"
@@ -329,10 +329,10 @@ $lottie.width:=1920
 $lottie.height:=1080
 
 // Find and modify a layer
-var $bg : cs.LottieShapeLayer:=$lottie.getLayerByName("Background")
+var $bg : cs.lottie.LottieShapeLayer:=$lottie.getLayerByName("Background")
 If ($bg#Null)
     // Get fills in the layer
-    var $fills : Collection:=$bg.getShapesByType(cs.LottieConstants.me.ShapeType.FILL)
+    var $fills : Collection:=$bg.getShapesByType(cs.lottie.LottieConstants.me.ShapeType.FILL)
     For each ($fill; $fills)
         // Change color to red (RGBA, values 0-1)
         $fill.color.staticValue:=[1; 0; 0; 1]
@@ -349,7 +349,7 @@ $lottie.save(Folder(fk desktop folder).file("modified.json"))
 
 ```4d
 // Create empty animation
-var $lottie : cs.Lottie:=cs.Lottie.new({v: "5.7.4"; fr: 30; ip: 0; op: 90; w: 512; h: 512; layers: []})
+var $lottie : cs.lottie.Lottie:=cs.lottie.Lottie.new({v: "5.7.4"; fr: 30; ip: 0; op: 90; w: 512; h: 512; layers: []})
 
 $lottie.name:="My Animation"
 
@@ -363,5 +363,6 @@ var $json : Object:=$lottie.toJSON()
 
 ## See Also
 
+- [LottieSchema Class](LottieSchema.md) - JSON Schema validation
 - [Lottie Animation Format](https://lottiefiles.github.io/lottie-docs/) - Official specification
 - [LottieFiles](https://lottiefiles.com/) - Animation library and tools
