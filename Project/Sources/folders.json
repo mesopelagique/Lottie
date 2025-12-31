@@ -1,0 +1,77 @@
+{
+	"Assets": {
+		"classes": [
+			"LottieAsset",
+			"LottieImageAsset",
+			"LottiePrecompAsset"
+		]
+	},
+	"Constants": {
+		"classes": [
+			"LottieConstants"
+		]
+	},
+	"Layers": {
+		"classes": [
+			"LottieGroupLayer",
+			"LottieImageLayer",
+			"LottieLayer",
+			"LottiePrecompLayer",
+			"LottieShapeLayer",
+			"LottieSolidLayer",
+			"LottieTextLayer"
+		]
+	},
+	"Properties": {
+		"classes": [
+			"LottieGradient",
+			"LottieKeyFrame",
+			"LottieProperty",
+			"LottieTransform"
+		]
+	},
+	"Shapes": {
+		"classes": [
+			"LottieEllipse",
+			"LottieFill",
+			"LottieGradientFill",
+			"LottieGradientStroke",
+			"LottieMerge",
+			"LottieOffsetPath",
+			"LottiePath",
+			"LottiePuckerBloat",
+			"LottieRectangle",
+			"LottieRepeater",
+			"LottieRoundedCorners",
+			"LottieShape",
+			"LottieShapeGroup",
+			"LottieStar",
+			"LottieStroke",
+			"LottieTrim",
+			"LottieTwist"
+		]
+	},
+	"Support": {
+		"classes": [
+			"LottieCharacter",
+			"LottieEffect",
+			"LottieEffectValue",
+			"LottieFont",
+			"LottieFontList",
+			"LottieMarker",
+			"LottieMask",
+			"LottieMeta"
+		]
+	},
+	"tests": {
+		"methods": [
+			"run_tests",
+			"test_Lottie_Animation",
+			"test_Lottie_Ellipse",
+			"test_Lottie_Load",
+			"test_Lottie_Path",
+			"test_Lottie_RoundTrip"
+		]
+	},
+	"trash": {}
+}

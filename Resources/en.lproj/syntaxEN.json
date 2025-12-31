@@ -1,0 +1,3299 @@
+{
+	"_method_": {},
+	"cs.lottie": {
+		"LottieEffectValue": {
+			"new()": {
+				"Syntax": "**.new**( *parent* : Object )",
+				"Params": [
+					[
+						"parent",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieMeta": {
+			"new()": {
+				"Syntax": "**.new**( *parent* : Object )",
+				"Params": [
+					[
+						"parent",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieEllipse": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottiePath": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieGradient": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieMerge": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieTwist": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"Lottie": {
+			"new()": {
+				"Syntax": "**.new**( *data* : Variant )",
+				"Params": [
+					[
+						"data",
+						"Variant",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottiePuckerBloat": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieOffsetPath": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieEffect": {
+			"new()": {
+				"Syntax": "**.new**( *parent* : Object )",
+				"Params": [
+					[
+						"parent",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieCharacter": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottiePrecompAsset": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieLayer": {
+			"new()": {
+				"Syntax": "**.new**( *type* : Integer )",
+				"Params": [
+					[
+						"type",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieSolidLayer": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieRoundedCorners": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieConstants": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottiePrecompLayer": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieShapeGroup": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieMarker": {
+			"new()": {
+				"Syntax": "**.new**( *parent* : Object )",
+				"Params": [
+					[
+						"parent",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieFill": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieKeyFrame": {
+			"new()": {
+				"Syntax": "**.new**( *frame* : Real; *value* : Variant )",
+				"Params": [
+					[
+						"frame",
+						"Real",
+						"->"
+					],
+					[
+						"value",
+						"Variant",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieRepeater": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieAsset": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieTrim": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieMask": {
+			"new()": {
+				"Syntax": "**.new**( *parent* : Object )",
+				"Params": [
+					[
+						"parent",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieFont": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieGradientFill": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieStroke": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieShapeLayer": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieTextLayer": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieGroupLayer": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieImageLayer": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieGradientStroke": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieTransform": {
+			"new()": {
+				"Syntax": "**.new**( *parent* : Object )",
+				"Params": [
+					[
+						"parent",
+						"Object",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieImageAsset": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieStar": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieShape": {
+			"new()": {
+				"Syntax": "**.new**( *type* : Text )",
+				"Params": [
+					[
+						"type",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieProperty": {
+			"new()": {
+				"Syntax": "**.new**( *parent* : Object; *type* : Text )",
+				"Params": [
+					[
+						"parent",
+						"Object",
+						"->"
+					],
+					[
+						"type",
+						"Text",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"LottieRectangle": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		},
+		"LottieFontList": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		}
+	},
+	"LottieEffectValue": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieEffectValue",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieEffectValue",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"value": {
+			"Syntax": "value : cs.lottie.LottieProperty"
+		},
+		"index": {
+			"Syntax": "index : Integer"
+		},
+		"type": {
+			"Syntax": "type : Integer"
+		},
+		"matchName": {
+			"Syntax": "matchName : Text"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		}
+	},
+	"LottieMeta": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieMeta",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieMeta",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"themeColor": {
+			"Syntax": "themeColor : Text"
+		},
+		"keywords": {
+			"Syntax": "keywords : Collection"
+		},
+		"description": {
+			"Syntax": "description : Text"
+		},
+		"author": {
+			"Syntax": "author : Text"
+		},
+		"generator": {
+			"Syntax": "generator : Text"
+		}
+	},
+	"LottieEllipse": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieEllipse",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieEllipse",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"size": {
+			"Syntax": "size : cs.lottie.LottieProperty"
+		},
+		"position": {
+			"Syntax": "position : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottiePath": {
+		"get isClosed()": {
+			"Syntax": "**.get isClosed**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getPathData()": {
+			"Syntax": "**.getPathData**( *frame* : Real ) : Object",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottiePath",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottiePath",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"vertices": {
+			"Syntax": "vertices : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieGradient": {
+		"getColorAtOffset()": {
+			"Syntax": "**.getColorAtOffset**( *offset* : Real ) : Collection",
+			"Params": [
+				[
+					"offset",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addStop()": {
+			"Syntax": "**.addStop**( *offset* : Real; *r* : Real; *g* : Real; *b* : Real ) : Object",
+			"Params": [
+				[
+					"offset",
+					"Real",
+					"->"
+				],
+				[
+					"r",
+					"Real",
+					"->"
+				],
+				[
+					"g",
+					"Real",
+					"->"
+				],
+				[
+					"b",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toArray()": {
+			"Syntax": "**.toArray**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromArray()": {
+			"Syntax": "**.fromArray**( *data* : Collection; *colorCount* : Integer ) : cs.lottie.LottieGradient",
+			"Params": [
+				[
+					"data",
+					"Collection",
+					"->"
+				],
+				[
+					"colorCount",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieGradient",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"colorCount": {
+			"Syntax": "colorCount : Integer"
+		},
+		"stops": {
+			"Syntax": "stops : Collection"
+		}
+	},
+	"LottieMerge": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieMerge",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieMerge",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"mergeMode": {
+			"Syntax": "mergeMode : Integer"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieTwist": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieTwist",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieTwist",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"center": {
+			"Syntax": "center : cs.lottie.LottieProperty"
+		},
+		"angle": {
+			"Syntax": "angle : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"Lottie": {
+		"get precompLayers()": {
+			"Syntax": "**.get precompLayers**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getMarkerByName()": {
+			"Syntax": "**.getMarkerByName**( *name* : Text ) : cs.lottie.LottieMarker",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieMarker",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get textLayers()": {
+			"Syntax": "**.get textLayers**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLayersByType()": {
+			"Syntax": "**.getLayersByType**( *type* : Integer ) : Collection",
+			"Params": [
+				[
+					"type",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLayerById()": {
+			"Syntax": "**.getLayerById**( *id* : Text ) : cs.lottie.LottieLayer",
+			"Params": [
+				[
+					"id",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLayerByIndex()": {
+			"Syntax": "**.getLayerByIndex**( *index* : Integer ) : cs.lottie.LottieLayer",
+			"Params": [
+				[
+					"index",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get imageLayers()": {
+			"Syntax": "**.get imageLayers**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get duration()": {
+			"Syntax": "**.get duration**() : Real",
+			"Params": [
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get fileSize()": {
+			"Syntax": "**.get fileSize**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get totalFrames()": {
+			"Syntax": "**.get totalFrames**() : Real",
+			"Params": [
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get shapeLayers()": {
+			"Syntax": "**.get shapeLayers**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.Lottie",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.Lottie",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get textContent()": {
+			"Syntax": "**.get textContent**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLayerByName()": {
+			"Syntax": "**.getLayerByName**( *name* : Text ) : cs.lottie.LottieLayer",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get colors()": {
+			"Syntax": "**.get colors**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getAssetById()": {
+			"Syntax": "**.getAssetById**( *id* : Text ) : cs.lottie.LottieAsset",
+			"Params": [
+				[
+					"id",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieAsset",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"save()": {
+			"Syntax": "**.save**( *file* : Variant ) : Boolean",
+			"Params": [
+				[
+					"file",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"meta": {
+			"Syntax": "meta : cs.lottie.LottieMeta"
+		},
+		"characters": {
+			"Syntax": "characters : Collection"
+		},
+		"fonts": {
+			"Syntax": "fonts : cs.lottie.LottieFontList"
+		},
+		"markers": {
+			"Syntax": "markers : Collection"
+		},
+		"inPoint": {
+			"Syntax": "inPoint : Real"
+		},
+		"version": {
+			"Syntax": "version : Text"
+		},
+		"outPoint": {
+			"Syntax": "outPoint : Real"
+		},
+		"is3D": {
+			"Syntax": "is3D : Boolean"
+		},
+		"layers": {
+			"Syntax": "layers : Collection"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		},
+		"height": {
+			"Syntax": "height : Integer"
+		},
+		"frameRate": {
+			"Syntax": "frameRate : Real"
+		},
+		"assets": {
+			"Syntax": "assets : Collection"
+		},
+		"width": {
+			"Syntax": "width : Integer"
+		}
+	},
+	"LottiePuckerBloat": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottiePuckerBloat",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottiePuckerBloat",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"amount": {
+			"Syntax": "amount : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieOffsetPath": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieOffsetPath",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieOffsetPath",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"miterLimit": {
+			"Syntax": "miterLimit : Real"
+		},
+		"lineJoin": {
+			"Syntax": "lineJoin : Integer"
+		},
+		"amount": {
+			"Syntax": "amount : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieEffect": {
+		"get typeName()": {
+			"Syntax": "**.get typeName**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieEffect",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieEffect",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"values": {
+			"Syntax": "values : Collection"
+		},
+		"index": {
+			"Syntax": "index : Integer"
+		},
+		"type": {
+			"Syntax": "type : Integer"
+		},
+		"enabled": {
+			"Syntax": "enabled : Boolean"
+		},
+		"matchName": {
+			"Syntax": "matchName : Text"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		}
+	},
+	"LottieCharacter": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieCharacter",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieCharacter",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"data": {
+			"Syntax": "data : Object"
+		},
+		"width": {
+			"Syntax": "width : Real"
+		},
+		"fontSize": {
+			"Syntax": "fontSize : Real"
+		},
+		"fontStyle": {
+			"Syntax": "fontStyle : Text"
+		},
+		"fontFamily": {
+			"Syntax": "fontFamily : Text"
+		},
+		"character": {
+			"Syntax": "character : Text"
+		}
+	},
+	"LottiePrecompAsset": {
+		"getLayersByType()": {
+			"Syntax": "**.getLayersByType**( *type* : Integer ) : Collection",
+			"Params": [
+				[
+					"type",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLayerByName()": {
+			"Syntax": "**.getLayerByName**( *name* : Text ) : cs.lottie.LottieLayer",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottiePrecompAsset",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottiePrecompAsset",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"frameRate": {
+			"Syntax": "frameRate : Real"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		},
+		"layers": {
+			"Syntax": "layers : Collection"
+		},
+		"_inheritedFrom_": "LottieAsset"
+	},
+	"LottieLayer": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieLayer",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get duration()": {
+			"Syntax": "**.get duration**() : Real",
+			"Params": [
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get typeName()": {
+			"Syntax": "**.get typeName**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"createFromJSON()": {
+			"Syntax": "**.createFromJSON**( *json* : Object; *parent* : Object ) : cs.lottie.LottieLayer",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"parent",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"parentIndex": {
+			"Syntax": "parentIndex : Integer"
+		},
+		"matchName": {
+			"Syntax": "matchName : Text"
+		},
+		"matteTarget": {
+			"Syntax": "matteTarget : Integer"
+		},
+		"autoOrient": {
+			"Syntax": "autoOrient : Boolean"
+		},
+		"transform": {
+			"Syntax": "transform : cs.lottie.LottieTransform"
+		},
+		"outPoint": {
+			"Syntax": "outPoint : Real"
+		},
+		"is3D": {
+			"Syntax": "is3D : Boolean"
+		},
+		"isHidden": {
+			"Syntax": "isHidden : Boolean"
+		},
+		"masks": {
+			"Syntax": "masks : Collection"
+		},
+		"startTime": {
+			"Syntax": "startTime : Real"
+		},
+		"classNames": {
+			"Syntax": "classNames : Collection"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		},
+		"id": {
+			"Syntax": "id : Text"
+		},
+		"matteMode": {
+			"Syntax": "matteMode : Integer"
+		},
+		"blendMode": {
+			"Syntax": "blendMode : Integer"
+		},
+		"index": {
+			"Syntax": "index : Integer"
+		},
+		"inPoint": {
+			"Syntax": "inPoint : Real"
+		},
+		"effects": {
+			"Syntax": "effects : Collection"
+		},
+		"timeStretch": {
+			"Syntax": "timeStretch : Real"
+		},
+		"type": {
+			"Syntax": "type : Integer"
+		}
+	},
+	"LottieSolidLayer": {
+		"setColorRGB()": {
+			"Syntax": "**.setColorRGB**( *r* : Integer; *g* : Integer; *b* : Integer )",
+			"Params": [
+				[
+					"r",
+					"Integer",
+					"->"
+				],
+				[
+					"g",
+					"Integer",
+					"->"
+				],
+				[
+					"b",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"get colorRGB()": {
+			"Syntax": "**.get colorRGB**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieSolidLayer",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieSolidLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"solidHeight": {
+			"Syntax": "solidHeight : Integer"
+		},
+		"solidWidth": {
+			"Syntax": "solidWidth : Integer"
+		},
+		"color": {
+			"Syntax": "color : Text"
+		},
+		"_inheritedFrom_": "LottieLayer"
+	},
+	"LottieRoundedCorners": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieRoundedCorners",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieRoundedCorners",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"radius": {
+			"Syntax": "radius : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieConstants": {
+		"getBlendModeName()": {
+			"Syntax": "**.getBlendModeName**( *mode* : Integer ) : Text",
+			"Params": [
+				[
+					"mode",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getShapeTypeName()": {
+			"Syntax": "**.getShapeTypeName**( *type* : Text ) : Text",
+			"Params": [
+				[
+					"type",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getLayerTypeName()": {
+			"Syntax": "**.getLayerTypeName**( *type* : Integer ) : Text",
+			"Params": [
+				[
+					"type",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"EffectType": {
+			"Syntax": "EffectType : Object"
+		},
+		"TextJustify": {
+			"Syntax": "TextJustify : Object"
+		},
+		"TextCaps": {
+			"Syntax": "TextCaps : Object"
+		},
+		"RepeaterComposite": {
+			"Syntax": "RepeaterComposite : Object"
+		},
+		"StarType": {
+			"Syntax": "StarType : Object"
+		},
+		"AssetType": {
+			"Syntax": "AssetType : Object"
+		},
+		"PropertyType": {
+			"Syntax": "PropertyType : Object"
+		},
+		"GradientType": {
+			"Syntax": "GradientType : Object"
+		},
+		"TrimMode": {
+			"Syntax": "TrimMode : Object"
+		},
+		"MatteMode": {
+			"Syntax": "MatteMode : Object"
+		},
+		"MaskMode": {
+			"Syntax": "MaskMode : Object"
+		},
+		"LineCap": {
+			"Syntax": "LineCap : Object"
+		},
+		"LineJoin": {
+			"Syntax": "LineJoin : Object"
+		},
+		"FillRule": {
+			"Syntax": "FillRule : Object"
+		},
+		"ShapeType": {
+			"Syntax": "ShapeType : Object"
+		},
+		"BlendMode": {
+			"Syntax": "BlendMode : Object"
+		},
+		"LayerType": {
+			"Syntax": "LayerType : Object"
+		}
+	},
+	"LottiePrecompLayer": {
+		"get layers()": {
+			"Syntax": "**.get layers**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getAsset()": {
+			"Syntax": "**.getAsset**() : cs.lottie.LottiePrecompAsset",
+			"Params": [
+				[
+					"",
+					"cs.lottie.LottiePrecompAsset",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottiePrecompLayer",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottiePrecompLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"height": {
+			"Syntax": "height : Integer"
+		},
+		"timeRemap": {
+			"Syntax": "timeRemap : cs.lottie.LottieProperty"
+		},
+		"width": {
+			"Syntax": "width : Integer"
+		},
+		"refId": {
+			"Syntax": "refId : Text"
+		},
+		"_inheritedFrom_": "LottieLayer"
+	},
+	"LottieShapeGroup": {
+		"getShapesByType()": {
+			"Syntax": "**.getShapesByType**( *type* : Text ) : Collection",
+			"Params": [
+				[
+					"type",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieShapeGroup",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieShapeGroup",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"transform": {
+			"Syntax": "transform : cs.lottie.LottieTransform"
+		},
+		"numProperties": {
+			"Syntax": "numProperties : Integer"
+		},
+		"shapes": {
+			"Syntax": "shapes : Collection"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieMarker": {
+		"get endTime()": {
+			"Syntax": "**.get endTime**() : Real",
+			"Params": [
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieMarker",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieMarker",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"comment": {
+			"Syntax": "comment : Text"
+		},
+		"duration": {
+			"Syntax": "duration : Real"
+		},
+		"time": {
+			"Syntax": "time : Real"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		}
+	},
+	"LottieFill": {
+		"setColorHex()": {
+			"Syntax": "**.setColorHex**( *hex* : Text )",
+			"Params": [
+				[
+					"hex",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"getColor()": {
+			"Syntax": "**.getColor**( *frame* : Real ) : Collection",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getColorHex()": {
+			"Syntax": "**.getColorHex**( *frame* : Real ) : Text",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieFill",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieFill",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"opacity": {
+			"Syntax": "opacity : cs.lottie.LottieProperty"
+		},
+		"fillRule": {
+			"Syntax": "fillRule : Integer"
+		},
+		"color": {
+			"Syntax": "color : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieKeyFrame": {
+		"interpolateTo()": {
+			"Syntax": "**.interpolateTo**( *nextKeyFrame* : cs.lottie.LottieKeyFrame; *progress* : Real ) : Variant",
+			"Params": [
+				[
+					"nextKeyFrame",
+					"cs.lottie.LottieKeyFrame",
+					"->"
+				],
+				[
+					"progress",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieKeyFrame",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieKeyFrame",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"hold": {
+			"Syntax": "hold : Boolean"
+		},
+		"valueOutTangent": {
+			"Syntax": "valueOutTangent : Collection"
+		},
+		"valueInTangent": {
+			"Syntax": "valueInTangent : Collection"
+		},
+		"frameOutTangent": {
+			"Syntax": "frameOutTangent : Collection"
+		},
+		"frameInTangent": {
+			"Syntax": "frameInTangent : Collection"
+		},
+		"value": {
+			"Syntax": "value : Variant"
+		},
+		"frame": {
+			"Syntax": "frame : Real"
+		}
+	},
+	"LottieRepeater": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieRepeater",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieRepeater",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"composite": {
+			"Syntax": "composite : Integer"
+		},
+		"offset": {
+			"Syntax": "offset : cs.lottie.LottieProperty"
+		},
+		"transform": {
+			"Syntax": "transform : cs.lottie.LottieTransform"
+		},
+		"copies": {
+			"Syntax": "copies : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieAsset": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieAsset",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieAsset",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"createFromJSON()": {
+			"Syntax": "**.createFromJSON**( *json* : Object; *parent* : Object ) : cs.lottie.LottieAsset",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"parent",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieAsset",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"id": {
+			"Syntax": "id : Text"
+		}
+	},
+	"LottieTrim": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieTrim",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieTrim",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"trimMode": {
+			"Syntax": "trimMode : Integer"
+		},
+		"offset": {
+			"Syntax": "offset : cs.lottie.LottieProperty"
+		},
+		"end": {
+			"Syntax": "end : cs.lottie.LottieProperty"
+		},
+		"start": {
+			"Syntax": "start : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieMask": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieMask",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieMask",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"opacity": {
+			"Syntax": "opacity : cs.lottie.LottieProperty"
+		},
+		"mode": {
+			"Syntax": "mode : Text"
+		},
+		"expand": {
+			"Syntax": "expand : cs.lottie.LottieProperty"
+		},
+		"inverted": {
+			"Syntax": "inverted : Boolean"
+		},
+		"points": {
+			"Syntax": "points : cs.lottie.LottieProperty"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		}
+	},
+	"LottieFont": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieFont",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieFont",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"path": {
+			"Syntax": "path : Text"
+		},
+		"style": {
+			"Syntax": "style : Text"
+		},
+		"origin": {
+			"Syntax": "origin : Integer"
+		},
+		"ascent": {
+			"Syntax": "ascent : Real"
+		},
+		"family": {
+			"Syntax": "family : Text"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		}
+	},
+	"LottieGradientFill": {
+		"get isRadial()": {
+			"Syntax": "**.get isRadial**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieGradientFill",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieGradientFill",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"highlightAngle": {
+			"Syntax": "highlightAngle : cs.lottie.LottieProperty"
+		},
+		"highlightLength": {
+			"Syntax": "highlightLength : cs.lottie.LottieProperty"
+		},
+		"fillRule": {
+			"Syntax": "fillRule : Integer"
+		},
+		"opacity": {
+			"Syntax": "opacity : cs.lottie.LottieProperty"
+		},
+		"colors": {
+			"Syntax": "colors : cs.lottie.LottieProperty"
+		},
+		"startPoint": {
+			"Syntax": "startPoint : cs.lottie.LottieProperty"
+		},
+		"endPoint": {
+			"Syntax": "endPoint : cs.lottie.LottieProperty"
+		},
+		"gradientType": {
+			"Syntax": "gradientType : Integer"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieStroke": {
+		"getWidth()": {
+			"Syntax": "**.getWidth**( *frame* : Real ) : Real",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getColor()": {
+			"Syntax": "**.getColor**( *frame* : Real ) : Collection",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieStroke",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieStroke",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"dashes": {
+			"Syntax": "dashes : Collection"
+		},
+		"lineJoin": {
+			"Syntax": "lineJoin : Integer"
+		},
+		"miterLimit": {
+			"Syntax": "miterLimit : Real"
+		},
+		"lineCap": {
+			"Syntax": "lineCap : Integer"
+		},
+		"width": {
+			"Syntax": "width : cs.lottie.LottieProperty"
+		},
+		"opacity": {
+			"Syntax": "opacity : cs.lottie.LottieProperty"
+		},
+		"color": {
+			"Syntax": "color : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieShapeLayer": {
+		"get rectangles()": {
+			"Syntax": "**.get rectangles**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get ellipses()": {
+			"Syntax": "**.get ellipses**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get paths()": {
+			"Syntax": "**.get paths**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get strokes()": {
+			"Syntax": "**.get strokes**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get fills()": {
+			"Syntax": "**.get fills**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getShapesByType()": {
+			"Syntax": "**.getShapesByType**( *type* : Text ) : Collection",
+			"Params": [
+				[
+					"type",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieShapeLayer",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieShapeLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"shapes": {
+			"Syntax": "shapes : Collection"
+		},
+		"_inheritedFrom_": "LottieLayer"
+	},
+	"LottieTextLayer": {
+		"get justify()": {
+			"Syntax": "**.get justify**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get fillColor()": {
+			"Syntax": "**.get fillColor**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get fontFamily()": {
+			"Syntax": "**.get fontFamily**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get fontSize()": {
+			"Syntax": "**.get fontSize**() : Real",
+			"Params": [
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get text()": {
+			"Syntax": "**.get text**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"set text()": {
+			"Syntax": "**.set text**( *value* : Text )",
+			"Params": [
+				[
+					"value",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieTextLayer",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieTextLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"textAnimator": {
+			"Syntax": "textAnimator : Object"
+		},
+		"textData": {
+			"Syntax": "textData : Object"
+		},
+		"_inheritedFrom_": "LottieLayer"
+	},
+	"LottieGroupLayer": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieGroupLayer",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieGroupLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"_inheritedFrom_": "LottieLayer"
+	},
+	"LottieImageLayer": {
+		"getAsset()": {
+			"Syntax": "**.getAsset**() : cs.lottie.LottieImageAsset",
+			"Params": [
+				[
+					"",
+					"cs.lottie.LottieImageAsset",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieImageLayer",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieImageLayer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"refId": {
+			"Syntax": "refId : Text"
+		},
+		"_inheritedFrom_": "LottieLayer"
+	},
+	"LottieGradientStroke": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieGradientStroke",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieGradientStroke",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"highlightAngle": {
+			"Syntax": "highlightAngle : cs.lottie.LottieProperty"
+		},
+		"lineJoin": {
+			"Syntax": "lineJoin : Integer"
+		},
+		"highlightLength": {
+			"Syntax": "highlightLength : cs.lottie.LottieProperty"
+		},
+		"dashes": {
+			"Syntax": "dashes : Collection"
+		},
+		"miterLimit": {
+			"Syntax": "miterLimit : Real"
+		},
+		"gradientType": {
+			"Syntax": "gradientType : Integer"
+		},
+		"lineCap": {
+			"Syntax": "lineCap : Integer"
+		},
+		"width": {
+			"Syntax": "width : cs.lottie.LottieProperty"
+		},
+		"startPoint": {
+			"Syntax": "startPoint : cs.lottie.LottieProperty"
+		},
+		"opacity": {
+			"Syntax": "opacity : cs.lottie.LottieProperty"
+		},
+		"colors": {
+			"Syntax": "colors : cs.lottie.LottieProperty"
+		},
+		"endPoint": {
+			"Syntax": "endPoint : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieTransform": {
+		"getOpacity()": {
+			"Syntax": "**.getOpacity**( *frame* : Real ) : Real",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getScale()": {
+			"Syntax": "**.getScale**( *frame* : Real ) : Collection",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getRotation()": {
+			"Syntax": "**.getRotation**( *frame* : Real ) : Real",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getAnchor()": {
+			"Syntax": "**.getAnchor**( *frame* : Real ) : Collection",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getPosition()": {
+			"Syntax": "**.getPosition**( *frame* : Real ) : Collection",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieTransform",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieTransform",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"skewAxis": {
+			"Syntax": "skewAxis : cs.lottie.LottieProperty"
+		},
+		"opacity": {
+			"Syntax": "opacity : cs.lottie.LottieProperty"
+		},
+		"skew": {
+			"Syntax": "skew : cs.lottie.LottieProperty"
+		},
+		"rotationX": {
+			"Syntax": "rotationX : cs.lottie.LottieProperty"
+		},
+		"rotationY": {
+			"Syntax": "rotationY : cs.lottie.LottieProperty"
+		},
+		"anchor": {
+			"Syntax": "anchor : cs.lottie.LottieProperty"
+		},
+		"positionX": {
+			"Syntax": "positionX : cs.lottie.LottieProperty"
+		},
+		"rotation": {
+			"Syntax": "rotation : cs.lottie.LottieProperty"
+		},
+		"scale": {
+			"Syntax": "scale : cs.lottie.LottieProperty"
+		},
+		"rotationZ": {
+			"Syntax": "rotationZ : cs.lottie.LottieProperty"
+		},
+		"positionY": {
+			"Syntax": "positionY : cs.lottie.LottieProperty"
+		},
+		"position": {
+			"Syntax": "position : cs.lottie.LottieProperty"
+		}
+	},
+	"LottieImageAsset": {
+		"get isJPEG()": {
+			"Syntax": "**.get isJPEG**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get isPNG()": {
+			"Syntax": "**.get isPNG**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get fileName()": {
+			"Syntax": "**.get fileName**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get fullPath()": {
+			"Syntax": "**.get fullPath**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieImageAsset",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieImageAsset",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"width": {
+			"Syntax": "width : Integer"
+		},
+		"height": {
+			"Syntax": "height : Integer"
+		},
+		"data": {
+			"Syntax": "data : Text"
+		},
+		"isEmbedded": {
+			"Syntax": "isEmbedded : Boolean"
+		},
+		"path": {
+			"Syntax": "path : Text"
+		},
+		"_inheritedFrom_": "LottieAsset"
+	},
+	"LottieStar": {
+		"get isPolygon()": {
+			"Syntax": "**.get isPolygon**() : Boolean",
+			"Params": [
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieStar",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieStar",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"starType": {
+			"Syntax": "starType : Integer"
+		},
+		"points": {
+			"Syntax": "points : cs.lottie.LottieProperty"
+		},
+		"rotation": {
+			"Syntax": "rotation : cs.lottie.LottieProperty"
+		},
+		"position": {
+			"Syntax": "position : cs.lottie.LottieProperty"
+		},
+		"innerRoundness": {
+			"Syntax": "innerRoundness : cs.lottie.LottieProperty"
+		},
+		"outerRoundness": {
+			"Syntax": "outerRoundness : cs.lottie.LottieProperty"
+		},
+		"outerRadius": {
+			"Syntax": "outerRadius : cs.lottie.LottieProperty"
+		},
+		"innerRadius": {
+			"Syntax": "innerRadius : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieShape": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieShape",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieShape",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get typeName()": {
+			"Syntax": "**.get typeName**() : Text",
+			"Params": [
+				[
+					"",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"createFromJSON()": {
+			"Syntax": "**.createFromJSON**( *json* : Object; *parent* : Object ) : cs.lottie.LottieShape",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"parent",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieShape",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"shapeIndex": {
+			"Syntax": "shapeIndex : Integer"
+		},
+		"itemIndex": {
+			"Syntax": "itemIndex : Integer"
+		},
+		"classNames": {
+			"Syntax": "classNames : Text"
+		},
+		"matchName": {
+			"Syntax": "matchName : Text"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		},
+		"direction": {
+			"Syntax": "direction : Integer"
+		},
+		"isHidden": {
+			"Syntax": "isHidden : Boolean"
+		},
+		"type": {
+			"Syntax": "type : Text"
+		}
+	},
+	"LottieProperty": {
+		"get valueRange()": {
+			"Syntax": "**.get valueRange**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getValue()": {
+			"Syntax": "**.getValue**( *frame* : Real ) : Variant",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"removeKeyFrame()": {
+			"Syntax": "**.removeKeyFrame**( *frame* : Real ) : Boolean",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Boolean",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"addKeyFrame()": {
+			"Syntax": "**.addKeyFrame**( *frame* : Real; *value* : Variant ) : cs.lottie.LottieKeyFrame",
+			"Params": [
+				[
+					"frame",
+					"Real",
+					"->"
+				],
+				[
+					"value",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieKeyFrame",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get staticValue()": {
+			"Syntax": "**.get staticValue**() : Variant",
+			"Params": [
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getValueAtTime()": {
+			"Syntax": "**.getValueAtTime**( *time* : Real; *frameRate* : Real ) : Variant",
+			"Params": [
+				[
+					"time",
+					"Real",
+					"->"
+				],
+				[
+					"frameRate",
+					"Real",
+					"->"
+				],
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"get frames()": {
+			"Syntax": "**.get frames**() : Collection",
+			"Params": [
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"set staticValue()": {
+			"Syntax": "**.set staticValue**( *value* : Variant )",
+			"Params": [
+				[
+					"value",
+					"Variant",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieProperty",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieProperty",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"values": {
+			"Syntax": "values : Collection"
+		},
+		"index": {
+			"Syntax": "index : Integer"
+		},
+		"expression": {
+			"Syntax": "expression : Text"
+		},
+		"isAnimated": {
+			"Syntax": "isAnimated : Boolean"
+		},
+		"type": {
+			"Syntax": "type : Text"
+		}
+	},
+	"LottieRectangle": {
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieRectangle",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieRectangle",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"size": {
+			"Syntax": "size : cs.lottie.LottieProperty"
+		},
+		"roundness": {
+			"Syntax": "roundness : cs.lottie.LottieProperty"
+		},
+		"position": {
+			"Syntax": "position : cs.lottie.LottieProperty"
+		},
+		"_inheritedFrom_": "LottieShape"
+	},
+	"LottieFontList": {
+		"addFont()": {
+			"Syntax": "**.addFont**( *name* : Text; *family* : Text; *style* : Text ) : cs.lottie.LottieFont",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"family",
+					"Text",
+					"->"
+				],
+				[
+					"style",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieFont",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getFontByFamily()": {
+			"Syntax": "**.getFontByFamily**( *family* : Text ) : cs.lottie.LottieFont",
+			"Params": [
+				[
+					"family",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieFont",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getFontByName()": {
+			"Syntax": "**.getFontByName**( *name* : Text ) : cs.lottie.LottieFont",
+			"Params": [
+				[
+					"name",
+					"Text",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieFont",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"toJSON()": {
+			"Syntax": "**.toJSON**() : Object",
+			"Params": [
+				[
+					"",
+					"Object",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fromJSON()": {
+			"Syntax": "**.fromJSON**( *json* : Object ) : cs.lottie.LottieFontList",
+			"Params": [
+				[
+					"json",
+					"Object",
+					"->"
+				],
+				[
+					"",
+					"cs.lottie.LottieFontList",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"fonts": {
+			"Syntax": "fonts : Collection"
+		}
+	}
+}
